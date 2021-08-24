@@ -2,6 +2,7 @@
 
 # Snippet 1
 '4' == 4 ? puts("TRUE") : puts("FALSE")
+#The above should print "FALSE"
 
 # Snippet 2
 x = 2
@@ -10,6 +11,8 @@ if ((x * 3) / 2) == (4 + 4 - x - 3)
 else
   puts "Did you?"
 end
+
+#The above should print "Did you get it right?"
 
 # Snippet 3
 y = 9
@@ -24,3 +27,4 @@ else
   puts "Alrighty!"
 end
 
+#The above should print "Alright now!"
