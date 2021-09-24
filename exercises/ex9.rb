@@ -22,3 +22,13 @@ h.each do |k, v|
 end
 
 p "Removed all key:value pairs whose value is less than 3.5: #{h}"
+
+# LS Answers:
+
+# one line version
+h.delete_if { |k, v| v < 3.5 }
+
+# multi-line version
+h.delete_if do |k, v|
+  v < 3.5
+end
