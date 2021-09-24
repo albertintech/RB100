@@ -6,3 +6,5 @@ contact_data = ["joe@email.com", "123 Main st.", "555-123-4567"]
 contacts = {"Joe Smith" => {}}
 
 As a bonus, see if you can figure out how to make it work with multiple entries in the contacts hash.
+
+# Tackle after ex11 and ex12. Not ready for a challenge of this magnitude yet.
