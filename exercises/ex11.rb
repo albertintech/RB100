@@ -10,3 +10,5 @@ contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
 #    "Joe Smith"=>{:email=>"joe@email.com", :address=>"123 Main st.", :phone=>"555-123-4567"},
 #    "Sally Johnson"=>{:email=>"sally@email.com", :address=>"404 Not Found Dr.",  :phone=>"123-234-3454"}
 #  }
+
+# Answer video is 8 mins long. Skipping this one until later fam
