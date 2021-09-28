@@ -6,4 +6,18 @@ loop do
   break
 end
 
-puts x   # Prints 2 -- the assignment was changed and maintained 
+puts x   # Prints 2 -- the assignment was changed and maintained
+
+
+# A small program to show the difference
+y = 99
+
+def add_one(number)
+  puts number
+  number += 1
+  puts number
+end
+
+add_one(99)
+
+puts y # Prints '99' because y was reassigned within the scope of a method definition and that reassignment does not carry over to the main program.
