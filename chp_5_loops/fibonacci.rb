@@ -16,3 +16,16 @@ puts "The first #{number} terms of the Fibonacci series are: "
 for i in 0..(number - 1)
 	puts fibonacci(i)
 end
+
+# LS Version:
+# fibonacci.rb
+
+# def fibonacci(number)
+#   if number < 2
+#     number
+#   else
+#     fibonacci(number - 1) + fibonacci(number - 2)
+#   end
+# end
+#
+# puts fibonacci(6)
